@@ -162,28 +162,61 @@ Change Directory with <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
 
 
 
- <!-- this section is now different in bootstrap 4 and 5 -->
- <form action="" class="form-inline">
-	 <div class="form-group">
-		 <label>Email</label>
+ <!-- this section is now different in bootstrap 4 and 5 ***Check documentation -->
+ <form>
+	 <div class="form-row">
+	 <div class="col">
+		 <label class="col-form-label">Email</label>
 		 <input type="email" class="form-control" placeholder="Email">
 	  </div>  
-	  <div class="form-group">
+	  <div class="col">
 		<label>Password</label>
 		<input type="password" class="form-control" placeholder="Password">
 	 </div>  
-	 <div class="checkbox">
+	 <div class="col">
 		 <label >
 			 <input type="checkbox"> Remember me 
 		 </label>
 		 <button type="submit" class="btn btn-secondary">Login</button>
 	 </div>
-
+	</div>
  </form>
 </div> 
+<hr>
+
+
+<!-- Tables -->
+
+<div class="container">
+	<table class="table table-striped table-bordered table-hover table-condensed">
+		<tr>
+			<th>Firstname</th>
+			<th>Lastname</th>
+			<th>Age</th>
+		</tr>
+		<tr class="table-danger">
+			<td>Jill</td>
+			<td>Jill</td>
+			<td>50</td>
+		</tr>
+		<tr class="table-success">
+			<td>Jill</td>
+			<td>Jill</td>
+			<td>50</td>
+		</tr>
+		<tr>
+			<td>Jill</td>
+			<td>Jill</td>
+			<td>55</td>
+		</tr>
+	</table>
+</div>
+<hr>
+
+
+
 
 <div style="height: 400px"></div>
-
 
 
 
